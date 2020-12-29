@@ -1,0 +1,4 @@
+# Make use of this with: `source ~/.alias` inside your .bash_profile file
+
+alias gs='git status'
+alias la='ls -la'
