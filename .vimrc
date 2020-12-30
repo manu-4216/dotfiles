@@ -10,6 +10,8 @@
 " vim 8 pluggins (.vim/pack/plugins/start)
 packloadall
 
+set nocompatible
+
 " Turn on syntax highlighting.
 syntax on
 
@@ -60,7 +62,7 @@ set noerrorbells visualbell t_vb=
 
 " Enable mouse support. You should avoid relying on this too much, but it can
 " sometimes be convenient.
-set mouse+=a
+set mouse=r
 
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
